@@ -557,7 +557,7 @@ ol {
 .register__text .register__form form input {
 	width: 100%;
 	height: 54px;
-	border: 2px solid #4c57d6;
+	border: 2px solid orangered;
 	border-radius: 50px;
 	font-size: 14px;
 	color: #111111;
@@ -731,7 +731,7 @@ ol {
 }
 
 .pricing__swipe-btn {
-	border: 1px solid #4c57d6;
+	border: 1px solid orangered;
 	border-radius: 50px;
 	height: 52px;
 	width: 266px;
@@ -754,7 +754,7 @@ ol {
 }
 
 .pricing__swipe-btn label.active {
-	background: #4c57d6;
+	background: orangered;
 	color: #ffffff;
 }
 
@@ -796,11 +796,11 @@ ol {
 }
 
 .pricing__item:hover h3 {
-	background: #4c57d6;
+	background: rgb(241, 122, 78);
 }
 
 .pricing__item:hover .primary-btn {
-	background: #4c57d6;
+	background: rgb(241, 122, 78);
 	color: #ffffff;
 }
 
@@ -811,7 +811,7 @@ ol {
 }
 
 .pricing__item h3 {
-	background: #120851;
+	background: orangered;
 	font-weight: 700;
 	color: #ffffff;
 	padding: 24px 0 20px;
@@ -1644,7 +1644,7 @@ ol {
 	font-size: 14px;
 	height: 15px;
 	width: 15px;
-	background: #4c57d6;
+	background: orangered;
 	line-height: 15px;
 	text-align: center;
 	color: #ffffff;
@@ -1657,7 +1657,7 @@ ol {
 	font-size: 14px;
 	height: 15px;
 	width: 15px;
-	background: #4c57d6;
+	background: orangered;
 	line-height: 15px;
 	text-align: center;
 	color: #ffffff;
@@ -3011,4 +3011,33 @@ ol {
 	.load-more .primary-btn {
 		padding: 14px 35px 12px;
 	}
+}
+
+.register-btn{
+	background-color: orangered;
+	color:#FFF;
+	border-color: orangered;
+}
+
+.register-btn:hover{
+	background-color: orange;
+	border: 1px solid orange;
+}
+/* .register-btn:focus{
+	outline: none !important;
+	box-shadow: none !important;
+} */
+
+.form-control:focus {
+	border-color: orangered;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px orangered;
+}
+.login-btn {
+	background-color: orangered;
+	color:#FFF;
+	border-color: orangered;
+  }
+  .login-btn:hover{
+	background-color: orange;
+	border: 1px solid orange;
 }
