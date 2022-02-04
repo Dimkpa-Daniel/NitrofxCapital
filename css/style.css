@@ -38,6 +38,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	background-color: #000;
 }
 
 h1,
@@ -127,7 +128,7 @@ ol {
 }
 
 .section-title h3 {
-	color: #111111;
+	color: white;
 	font-weight: 700;
 	text-transform: uppercase;
 	position: relative;
@@ -146,10 +147,11 @@ ol {
 }
 
 .set-bg {
-	background-repeat: no-repeat;
+	/* background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	
+	 */
+	 background-color: black;
 }
 
 .spad {
@@ -679,7 +681,7 @@ ol {
 -----------------------*/
 
 .services-section {
-	background: #eeeffb;
+	background: black;
 	padding-bottom: 60px;
 }
 
@@ -1183,14 +1185,14 @@ ol {
 }
 
 .about__text h2 {
-	color: #111111;
+	color: white;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 15px;
 }
 
 .about__text p {
-	color: #111111;
+	color: white;
 	margin-bottom: 26px;
 }
 
@@ -1210,7 +1212,7 @@ ol {
 }
 
 .about__text .about__achievement .about__achieve__item h4 {
-	color: #111111;
+	color: white;
 	font-weight: 700;
 	margin-top: 12px;
 }
@@ -1218,7 +1220,7 @@ ol {
 .about__text .about__achievement .about__achieve__item p {
 	font-size: 13px;
 	text-transform: uppercase;
-	color: #444444;
+	color: white;
 	margin-bottom: 0;
 }
 
@@ -1232,7 +1234,7 @@ ol {
 }
 
 .feature__item {
-	background: #ffffff;
+	background: rgb(32, 32, 32);
 	-webkit-box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
 	box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
 	padding: 30px 35px 32px 35px;
@@ -1255,14 +1257,14 @@ ol {
 
 .feature__item h5 {
 	font-size: 20px;
-	color: #111111;
+	color: white;
 	font-weight: 700;
 	margin-top: 18px;
 	margin-bottom: 10px;
 }
 
 .feature__item p {
-	color: #111111;
+	color: white;
 	margin-bottom: 0;
 }
 
@@ -1344,7 +1346,7 @@ ol {
 -----------------------*/
 
 .testimonial-section {
-	background: #f5f5f5;
+	background: black;
 }
 
 .testimonial__item {
@@ -1662,7 +1664,13 @@ ol {
 	text-align: center;
 	color: #ffffff;
 }
+.card{
+	background-color: #000;
+}
 
+.card-heading:hover{
+	color: white;
+}
 .question-form input {
 	font-size: 14px;
 	color: #444444;
@@ -3041,3 +3049,27 @@ ol {
 	background-color: orange;
 	border: 1px solid orange;
 }
+
+
+.card-heading a{
+	color: white;
+}
+
+.card-body p{
+	color: white;
+}
+
+
+label{
+	color: white;
+}
+
+
+.footer__logo a{
+	color: white;
+}
+
+.footer__top-call .d-5{
+	color: rgb(107, 105, 105) ;
+}
+
